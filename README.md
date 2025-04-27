@@ -1,35 +1,9 @@
-# animation_vue
 
-This template should help get you started developing with Vue 3 in Vite.
+<img width="1208" alt="Снимок экрана 2024-06-28 в 01 26 04" src="https://github.com/Mery182/animation_vue/assets/58829464/47bccb1b-a35b-4c55-b2d8-05c0e6c35c88">
+npm install<br>
+npm run dev<br>
+npm run build<br>
+cd dist<br>
+http-server
 
-## Recommended IDE Setup
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
