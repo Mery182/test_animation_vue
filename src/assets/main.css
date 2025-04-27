@@ -40,13 +40,14 @@ header {
   justify-content: center;
   margin: 1rem auto;
   padding: 0 2rem;
-
 }
 
 .card {
   align-items: center;
   background: white;
-  box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+  box-shadow:
+    rgba(17, 17, 26, 0.05) 0px 4px 16px,
+    rgba(17, 17, 26, 0.05) 0px 8px 32px;
   border-radius: 25px;
   display: inline-flex;
   height: 80px;
@@ -62,8 +63,8 @@ button {
   border: solid 1px;
   border-radius: 2em;
   font: inherit;
-  height: 65px;
-  padding: 0.75em 2em;
+  font-size: 12px;
+  padding: 3px 12px;
 }
 
 button:hover,
@@ -86,7 +87,6 @@ button:focus {
   z-index: 100;
   background-color: white;
   border-bottom: 2px solid rgba(52, 52, 52, 0.15);
-
 }
 
 #toggle-button {
@@ -96,8 +96,8 @@ button:focus {
   border: solid 1px;
   border-radius: 2em;
   font: inherit;
-  font-size: 18px;
-  padding: 12px 22px;
+  font-size: 12px;
+  padding: 3px 12px;
   transition: all 0.5s;
 }
 
@@ -113,11 +113,10 @@ button:focus {
   border: solid 1px;
   border-radius: 2em;
   font: inherit;
-  font-size: 18px;
-  padding: 12px 22px;
+  font-size: 12px;
+  padding: 3px 12px;
   transition: all 0.5s;
-  height: 65px;
-  margin:  0 10px;
+  margin: 0 10px;
 }
 
 #type {
@@ -130,7 +129,6 @@ button:focus {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
 }
 
 .box {
@@ -141,7 +139,6 @@ button:focus {
   border-radius: 50%;
 }
 
-
 /*  */
 
 .css-anim {
@@ -150,40 +147,38 @@ button:focus {
 
 @keyframes animate {
   0% {
-      transform: translateX(0) rotate(0deg) scale(0.6);
+    transform: translateX(0) rotate(0deg) scale(0.6);
   }
 
   100% {
-      transform: translateY(500px) rotate(360deg) scale(1.4);
+    transform: translateY(500px) rotate(360deg) scale(1.4);
   }
 }
 
-@media (max-width:786px) {
-  header>div {
-      padding: 0 10px;
+@media (max-width: 786px) {
+  header > div {
+    padding: 0 10px;
   }
 
   button {
-      font-size: 12px;
+    font-size: 12px;
   }
 
   #toggle-button {
-      font-size: 14px;
-      height: auto;
-      padding: 12px 12px;
+    font-size: 14px;
+    font-size: 12px;
+    padding: 3px 12px;
   }
 
   #button-two {
-      margin-top: 5px;
-      font-size: 14px;
-      height: auto;
+    margin-top: 5px;
+    font-size: 12px;
+    padding: 3px 12px;
   }
-
 }
 
-@media (max-width:378px) {
-
+@media (max-width: 378px) {
   #toggle-button {
-      font-size: 10px;
+    font-size: 10px;
   }
 }
